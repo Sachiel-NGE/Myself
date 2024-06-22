@@ -1,0 +1,47 @@
+.overlay {
+
+    position: absolute;
+    top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    padding: 20px;
+    margin-top: 20px; /* Add some margin to push it down */
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+.image-container {
+    background: rgba(0, 0, 0, 0.5); /* Transparent background */
+    padding: 20px; /* Add some padding */
+    display: flex;
+    flex-wrap: wrap; /* Wrap images to the next line */
+    gap: 20px; /* Gap between images */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.image-box {
+    width: 200px; /* Adjust image size */
+    text-align: center;
+    position: relative; /* Add relative positioning */
+    z-index: 1; /* Set a higher z-index to place images on top */
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-name {
+    font-size: 16px; /* Adjust font size */
+    font-family: Arial, sans-serif; /* Choose a font family */
+color: blue;
+}

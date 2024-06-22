@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: rgb(215, 10, 10);
+}
+
+.paragraph {
+    font-size: 20px;
+    color: aliceblue;
+    margin-top: 25px;
+
+
+ }
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+.overlay {
+
+        position: absolute;
+        top: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center; /* Horizontally center */
+        align-items: center; /* Vertically center */
+        padding: 20px;
+        margin-top: 20px; /* Add some margin to push it down */
+    }
+
+    .transparent-box {
+        width: 500px;
+        height: 400px;
+        background-color: rgba(13, 5, 5, 0.736); /* 50% transparent black */
+        padding: 20px;
+        text-align: center;
+        border: 1px solid transparent; /* Transparent border */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+
+    }
+    
+    .my-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #01010178; /* Set your desired button color */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+        transition: transform 0.2s, box-shadow 0.2s; /* Add smooth transitions */
+        margin-top: 80px;
+    }
+
+    .my-button:hover {
+        transform: translateY(-2px); /* Add a slight lift effect on hover */
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhance the shadow on hover */
+    }
