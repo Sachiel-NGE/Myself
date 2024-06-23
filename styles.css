@@ -32,24 +32,24 @@ p {
 }
 .overlay {
 
-        position: absolute;
-        top: 0;
-        text-align: center;
-        display: flex;
-        justify-content: center; /* Horizontally center */
-        align-items: center; /* Vertically center */
-        padding: 20px;
-        margin-top: 20px; /* Add some margin to push it down */
+    position: relative;
+    
+    top: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    padding: 20px;
+    margin-top: 20px; /* Add some margin to push it down */
     }
 
     .transparent-box {
-        width: 500px;
-        height: 400px;
-        background-color: rgba(13, 5, 5, 0.736); /* 50% transparent black */
+        min-width: 800px;
+        margin: 0 auto;
         padding: 20px;
-        text-align: center;
-        border: 1px solid transparent; /* Transparent border */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+        background-color: rgba(0, 0, 0, 0.777); /* Semi-transparent box */
+        border-radius: 10px; /* Rounded edges */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
 
     }
     
