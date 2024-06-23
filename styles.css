@@ -62,7 +62,7 @@ p {
         border-radius: 5px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
         transition: transform 0.2s, box-shadow 0.2s; /* Add smooth transitions */
-        margin-top: 80px;
+        margin-top: 40px;
     }
 
     .my-button:hover {
