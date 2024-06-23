@@ -4,10 +4,10 @@
     top: 0;
     text-align: center;
     display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
+    justify-content: center; 
+    align-items: center; 
     padding: 20px;
-    margin-top: 20px; /* Add some margin to push it down */
+    margin-top: 20px; 
 }
 
 #myVideo {
@@ -19,20 +19,20 @@
   }
 
 .image-container {
-    background: rgba(0, 0, 0, 0.5); /* Transparent background */
-    padding: 20px; /* Add some padding */
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
     display: flex;
-    flex-wrap: wrap; /* Wrap images to the next line */
-    gap: 20px; /* Gap between images */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center; 
 }
 
 .image-box {
-    width: 200px; /* Adjust image size */
+    width: 200px; 
     text-align: center;
-    position: relative; /* Add relative positioning */
-    z-index: 1; /* Set a higher z-index to place images on top */
+    position: relative; 
+    z-index: 1; 
 }
 
 .image-box img {
@@ -41,7 +41,51 @@
 }
 
 .image-name {
-    font-size: 16px; /* Adjust font size */
-    font-family: Arial, sans-serif; /* Choose a font family */
+    font-size: 16px; 
+    font-family: Arial, sans-serif; 
 color: blue;
+}
+
+.image-set {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+    margin: 50px 0; 
+    opacity: 0; 
+    transition: opacity 1s ease-out;
+}
+
+.image-set img {
+    max-width: 100%; 
+    height: auto; 
+    object-fit: cover;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    border: 2px solid transparent; 
+    transition: border-color 0.3s ease; 
+}
+
+.image-name {
+
+    margin-top: 10px; 
+    opacity: 1;
+    transition: opacity 0.3s ease; 
+    cursor: pointer; 
+
+}
+
+.image-set.visible {
+    opacity: 1;
+}
+
+.image-set.visible img {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.image-set :hover {
+    border-color: #ff0202; 
+    box-shadow: 0 0 10px rgba(199, 2, 2, 0.8); 
 }
