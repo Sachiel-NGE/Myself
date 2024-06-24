@@ -6,6 +6,10 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    background-image: url('../../anime/angel\ beats\ back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #myVideo {
