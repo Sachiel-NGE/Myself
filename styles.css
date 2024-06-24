@@ -37,35 +37,35 @@ p {
     top: 0;
     text-align: center;
     display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
+    justify-content: center; 
+    align-items: center; 
     padding: 20px;
-    margin-top: 20px; /* Add some margin to push it down */
+    margin-top: 20px; 
     }
 
     .transparent-box {
         min-width: 800px;
         margin: 0 auto;
         padding: 20px;
-        background-color: rgba(0, 0, 0, 0.777); /* Semi-transparent box */
-        border-radius: 10px; /* Rounded edges */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+        background-color: rgba(0, 0, 0, 0.777); 
+        border-radius: 10px; 
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
 
     }
     
     .my-button {
         display: inline-block;
         padding: 10px 20px;
-        background-color: #01010178; /* Set your desired button color */
+        background-color: #01010178; 
         color: white;
         border: none;
         border-radius: 5px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-        transition: transform 0.2s, box-shadow 0.2s; /* Add smooth transitions */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+        transition: transform 0.2s, box-shadow 0.2s; 
         margin-top: 40px;
     }
 
     .my-button:hover {
-        transform: translateY(-2px); /* Add a slight lift effect on hover */
-        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Enhance the shadow on hover */
+        transform: translateY(-2px); 
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
     }
