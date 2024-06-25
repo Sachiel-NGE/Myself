@@ -83,4 +83,15 @@ p {
         box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
     }
 
-  
+    @media (max-width: 600px) {
+        /* Styles for small screens */
+    }
+    
+    @media (min-width: 601px) and (max-width: 1500px) {
+        /* Styles for medium screens */
+    }
+    
+    @media (min-width: 1501px) {
+        /* Styles for large screens */
+    }
+    

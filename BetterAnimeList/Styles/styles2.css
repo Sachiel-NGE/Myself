@@ -89,3 +89,7 @@ color: blue;
     border-color: #ff0202; 
     box-shadow: 0 0 10px rgba(199, 2, 2, 0.8); 
 }
+
+.opacity-50 {
+    background-color: rgba(255, 255, 255, 0.5); /* 50% opacity white background */
+}
