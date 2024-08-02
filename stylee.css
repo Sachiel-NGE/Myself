@@ -9,6 +9,10 @@ text-decoration: none;
 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header{
     position: fixed;
     top: 0;
@@ -203,11 +207,8 @@ transition: 0.3s ease;
 
     .about-image img{
         position: relative;
-        width: 550px;
-        box-shadow: 0 0 10px orangered,
-                    0 0 10px rgb(244, 56, 19);
-        border-radius: 50%;
-                    
+        width: 400px;
+
     }
 
     .about-content h2{
