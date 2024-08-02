@@ -2,41 +2,97 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <title>Document</title>
 </head>
 <body>
-    <div class="video-background">
-        <video autoplay muted loop id="myVideo">
-            <source src="images/torii-gate-sakura-blood-moonlight-moewalls-com.mp4" type="video/mp4">
-        </video>
-    </div>
+    <header class="header">
+        <a  href="#" class="logo"><span>Sach</span>iel</a>
 
-     <div class="overlay" >
-        <div class="transparent-box">
+   
+        <nav class="navbar">
+            <a href="#" class="active">Home</a>
+            <a href="#">Abut Me</a>
+            <a href="#">Experience</a>
+            <a href="#">Education</a>
 
-                <h1 style="color: black;">Gyatt Land</h1>
-                <p class="paragraph"> 
-                    Hey there, Friend, Stalker, or Enemy I sense you scrolling around here.<br>
-                    Anyway, you are probably wondering what this is about. I don't know either.<br>
-                    I wanted to do a simple about me page, but mainly focused around anime.<br>
-                    I'll keep on improving it each day.
-                    <del>if you send feet pictures to my DM </p></del><br>
-                       
+        </nav>
+        <div href="#" class="contact">Contact Me</div>
 
-
-                    <a href="BetterAnimeList/Layout.html">
-                        <button class="mybutton">My Anime List</button>
-                    </a>
-                </div>
+    </header>
+    <section class="Home">
+        <div class="Home-content">
+            <h3>Hi</h3>
+            <h1>I am <span>Sachiel</span>, a <div class="type-text"></div></h1> 
+            <p>I am testing my skills in Frontend Development with this website</p>
+            <div class="button-box">
+                <button class="button-1">Learn More</button>
+                <button class="button-2">Experience</button>
+            </div>
         </div>
-     </div>
+ 
+    <div class="image-box">
+        <img src="preppy-kokonoe.gif" alt="gif">
     </div>
+
+    </section>
+<section class="About-Me">
+
+<div class="about-image">
+    <img src="OIF.jpg" alt="">
+</div>
+
+<div class="about-content">
+    <h2 class="heading">About<span> Me</span></h2>
+    <h3>Frontend<span>Developer</span></h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam nostrum, sunt dicta sit quaerat similique soluta exercitationem atque consectetur praesentium, voluptatibus ipsum molestiae amet iure enim quod minus ipsam asperiores.</p>
+    <a href="#" class="button-2">Experience</a>
+</div>
+
+</section>
+
+<section class="contact-form">
+<h2 class="contact-me">Contact<span> Me</span></h2>
+
+<form action="#">
+
+<div class="input-box">
+    <input type="text" placeholder="Full Name">
+    <input type="email" placeholder="Email">
+</div>
+
+<div class="input-box">
+    <input type="number" placeholder="Phone Number">
+    <input type="text" placeholder="Subject">
+</div>
+
+<textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+<input type="Submit" value="Send Message" class="button-1">
+
+
+</form>
+</section>
+
+
+
+
+
+
+
+
+<script>
+    var typed = new Typed(".type-text", {
+      strings: ["Developer", "Weeb", "Gaymer."],
+      typeSpeed: 150,
+      backSpeed: 150,
+      loop: true
+    });
+  </script>
 
 </body>
+
+
 </html>
